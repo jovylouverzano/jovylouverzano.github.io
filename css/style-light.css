@@ -1,0 +1,517 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+</style>
+
+/*==========================================================
+                    BASE CSS STARTS
+===========================================================*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Opens Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #262626;
+    font-weight: 400;    
+    height: 100%;
+    width: 100%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #262626;
+    font-weight: 600;
+}
+
+p {
+    letter-spacing: 0;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 7rem 0;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #262626;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', cursive;
+    text-transform: uppercase;
+
+}
+
+.section-dark {
+    background: #ffffff;
+}
+
+.section-darker {
+    background: #f2f2f2;
+}
+
+.line-one {
+    height: 2px;
+    width: 150px;
+    background: #F24259;
+    margin-bottom: 30px;
+    display: `;
+    margin: 0.5rem auto;
+}
+
+.button {
+    border: none;
+    padding: 0.7rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 4px;
+}
+
+
+
+/*==========================================================
+                    BASE CSS ENDS
+===========================================================*/
+
+
+
+
+/*==========================================================
+                    HEADER CSS STARTS
+===========================================================*/
+
+/*para sa navbar.js*/
+.navbar{
+    margin-bottom: 2rem;
+}
+.navbar-default {
+    background: #F24259;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+}
+
+/*para sa navbar.js*/
+
+header a {
+    color: #e5e5e5;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', monospace;
+}
+
+header .nav-item:last-child {
+    padding-right: 10rem;
+}
+
+
+header .nav-item {
+    padding: 0.4em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+
+
+
+/*==========================================================
+                    HEADER CSS ENDS
+===========================================================*/
+
+
+
+/*==========================================================
+                    BANNER CSS STARTS
+===========================================================*/
+
+.banner-area {
+    background: url('../img/hero-min.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-area .col-12 {
+    margin-top: 21rem;
+    margin-left: 2rem;
+}
+
+.banner-area .banner-caption .name,
+.job-title {
+    color: #e5e5e5;
+}
+
+
+.banner-area .banner-caption .btn {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.3rem;
+}
+
+.col-12 .banner-caption .btn-light {
+    color: #e5e5e5;
+    background-color: #F24259;
+    border: 0px;
+    padding: 0.7rem 1.5rem;
+    border: none;
+}
+
+.button-about,
+.button-download {
+    color: #e5e5e5;
+    background-color: #F24259;
+}
+
+.button-contact {
+    color: #262626;
+    background-color: #e5e5e5;
+}
+
+.button-about:hover,
+.button-download:hover {
+    color: #e5e5e5;
+    background-color: #ea2841;
+}
+
+.button-contact:hover {
+    color: #e5e5e5;
+    background-color: #F24259;
+}
+
+
+
+/*==========================================================
+                    BANNER CSS ENDS
+===========================================================*/
+
+
+
+
+/*==========================================================
+                    ABOUT CSS STARTS
+===========================================================*/
+
+.about-area .pb-4 {
+    font-size: 1.3rem;
+}
+
+.about-area {
+    color: #262626;
+}
+
+.about-area img{
+        margin-bottom: 1rem;
+    }
+
+.about-area span{
+    color: #262626;
+    font-weight: 600;
+}
+
+.about-area span:hover{
+    color: #F24259;
+}
+
+
+
+/*==========================================================
+                    ABOUT CSS ENDS
+===========================================================*/
+
+/*==========================================================
+                    SERVICES CSS STARTS
+===========================================================*/
+
+
+
+.single-services h3 {
+    font-family: 'Rubik', cursive;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    
+}
+
+.single-services .iconify{
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+    
+}
+
+.single-services .iconify{
+    color: #262626;
+}
+
+
+.single-services .iconify:hover{
+    color: #F24259;
+}
+
+
+
+/*==========================================================
+                    SERVICES CSS ENDS
+===========================================================*/
+
+
+
+/*==========================================================
+                    CERTIFICATES CSS STARTS
+===========================================================*/
+
+.single-works {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    box-shadow: 5px 5px 15px #000;
+}
+
+.single-works img {
+    width: 100%;
+    height: auto;
+}
+
+.single-works .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFCB2F;
+    margin: 0 0 15px 0;
+    font-family: 'Roboto', cursive;
+}
+
+.overlay-text a {
+    text-decoration: none;
+}
+
+.overlay-text .post {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.single-works .overlay-text {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 30%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.6s ease 0s;
+}
+
+.single-works .overlay-text:before {
+    border-left: 1px solid rgba(255, 255, 255, 0.9);
+    border-right: 1px solid rgba(255, 255, 255, 0.9);
+    left: 30px;
+    right: 30px;
+}
+
+.single-works .overlay-text:after {
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    top: 30px;
+    bottom: 30px;
+}
+
+.single-works .overlay-text:before,
+.single-works .overlay-text:after {
+    /*    content: '';*/
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(1.5);
+    transition: all 0.6s ease 0.2s;
+}
+
+.single-works:hover {
+    transform: translateY(-8px);
+}
+
+.single-works:hover .overlay-text {
+    opacity: 1;
+}
+
+.single-works:hover .overlay-text:before,
+.single-works:hover .overlay-text:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*==========================================================
+                    CERTIFICATES CSS ENDS
+===========================================================*/
+
+
+/*==========================================================
+                    CONTACT CSS STARTS
+===========================================================*/
+
+
+#contact-form {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    padding: 5%;
+    
+}
+
+.single-contact i {
+    font-size: 30px;
+    color: #f24259;
+}
+
+.single-contact .socials i {
+    font-size: 14px;
+    color: #262626;
+}
+
+.socials i {
+    margin: 0 10px;
+}
+
+.socials i:hover {
+    cursor: pointer;
+    color: #f24259;
+}
+
+
+
+.single-contact {
+    margin-bottom: 50px;
+}
+
+.single-contact h2 {
+    font-weight: 100;
+    margin-top: 2rem;
+
+}
+
+.contact-area .form-control {
+    border: none;
+    border-bottom: 2px solid #a2a2a2;
+    box-shadow: none;
+    padding: 6px 0;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.contact-area textarea.form-control {
+    border: 2px solid #a2a2a2;
+    padding: 6px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.single-contact h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.single-contact p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.btn.btn-send {
+    background: #f24259;
+    color: #e5e5e5;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contact-right h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.single-contact {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    padding: 5%;
+}
+
+/*==========================================================
+                    CONTACT CSS STARTS
+===========================================================*/
+
+
+/*==========================================================
+                    FOOTER CSS STARTS
+===========================================================*/
+
+.footer-area {
+    background: #171717;
+    color: #d0cece;
+    padding: 2rem 0;
+}
+
+.footer-area a{
+    color: #f24259;
+    font-weight: 600;
+}
+
+/*==========================================================
+                    FOOTER CSS ENDS
+===========================================================*/
+

@@ -1,0 +1,41 @@
+/*xs*/
+@media (max-width: 575px) {
+      header .navbar-brand {
+        padding-left: 2rem;
+    }
+
+    .banner-area .col-12 {
+        margin-top: 16rem;
+        margin-left: -0.3rem;
+    }
+
+    .banner-caption {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .button-download {
+        width: 100%;
+    }
+}
+
+
+/*sm*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/*md*/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/*lg*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/*xl*/
+@media (min-width: 1200px) {
+    
+}
